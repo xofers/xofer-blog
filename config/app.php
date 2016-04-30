@@ -206,7 +206,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
 
-
         /*自用插件*/
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
