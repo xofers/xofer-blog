@@ -1,0 +1,11 @@
+{
+    "name": "xofer-wechat",
+    "description": "a wechat application",
+    "authors": [
+        {
+            "name": "xofer",
+            "email": "ycj652901@163.com"
+        }
+    ],
+    "require": {}
+}
