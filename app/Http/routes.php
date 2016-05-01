@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+/*
+ * 微信服务端通信
+ */
+Route::any('/wechat', 'ServerController@serve');
