@@ -157,9 +157,10 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /*自用插件*/
-        Barryvdh\Debugbar\ServiceProvider::class,
+//        Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Overtrue\LaravelWechat\ServiceProvider::class,
+        PhpConsole\Laravel\ServiceProvider::class
     ],
 
     /*
@@ -207,7 +208,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
 
         /*自用插件*/
-        'Debugbar'  => Barryvdh\Debugbar\Facade::class,
+//        'Debugbar'  => Barryvdh\Debugbar\Facade::class,
         'Wechat'    => Overtrue\LaravelWechat\Facade::class,
     ],
 
